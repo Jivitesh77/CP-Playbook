@@ -1,0 +1,34 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+
+using ll = long long;
+using vi = vector<int>;
+using vll = vector<ll>;
+using pii = pair<int, int>;
+
+
+#define pb push_back
+#define all(x) (x).begin(), (x).end()
+#define sz(x) (int)(x).size()
+#define endl '\n' 
+
+
+const int MOD = 1e9 + 7;
+const ll INF = 1e18;
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    int a, b, c;
+    cin >> a >> b >> c;
+    int ans1 = a + b + c;
+    int ans2 = a * b * c;
+    int ans3 = a + b * c;
+    int ans4 = a * b + c;
+    int ans5 = (a + b) * c;
+    int ans6 = a * (b + c);
+    int ans = max({ans1, ans2, ans3, ans4, ans5, ans6});
+    cout << ans << "\n";
+
+    
+}

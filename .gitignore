@@ -1,2 +1,7 @@
+# Compiled binaries and test I/O
 *.out
-x
+*.in
+*.exe
+*
+!*/
+!*.*
