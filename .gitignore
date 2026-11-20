@@ -1,7 +1,11 @@
-# Compiled binaries and test I/O
-*.out
-*.in
-*.exe
+# Ignore compiled extensionless binaries
 *
-!*/
 !*.*
+!*/
+!LICENSE
+
+# Ignore scratch input/output files
+input.txt
+in.txt
+out*.txt
+*.out
